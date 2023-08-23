@@ -5,6 +5,8 @@ function bisiesto(anio) {
         return false;
     if (anio % 4 == 0 && anio % 100 != 0)
         return true;
+    if (anio % 4 != 0)
+        return false;
     return false;
 }
 
